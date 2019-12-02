@@ -98,7 +98,7 @@ const Layout = ({ children }) => {
                         <Facebook strokeWidth={2} />
                       </Anchor>
 
-                      <Anchor href="https://github.com/civictechro" title={'GitHub Civictech România'}>
+                      <Anchor href="https://github.com/civictech-romania" title={'GitHub Civictech România'}>
                         <GitHub strokeWidth={2} />
                       </Anchor>
                       <Anchor href="mailto:office@civictech.ro" title={'Email Civictech România'}>
