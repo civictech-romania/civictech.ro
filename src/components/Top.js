@@ -10,7 +10,7 @@ export function Top({ color }) {
       <Anchor href="mailto:office@civictech.ro" title="Email Civictech România">
         <Mail color={color} size={16} />
       </Anchor>
-      <Anchor href="https://github.com/civictechro" title="Github Civictech România">
+      <Anchor href="https://github.com/civictech-romania" title="Github Civictech România">
         <GitHub color={color} size={16} />
       </Anchor>
     </div>
