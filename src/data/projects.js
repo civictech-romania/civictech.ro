@@ -1,4 +1,3 @@
-import openEnergy from '../../static/images/projects/open-energy.jpg'
 import smartCity from '../../static/images/projects/smart-city.jpg'
 import citizennext from '../../static/images/citizen.svg'
 import civicnet from '../../static/images/civicnet.svg'
@@ -6,12 +5,22 @@ import fiiPregatit from '../../static/images/projects/fiipregatit.png'
 import meserii from '../../static/images/projects/meserii.png'
 import harta from '../../static/images/projects/harta.jpg'
 import parinte from '../../static/images/projects/parinte.png'
+import covid from '../../static/images/projects/covid.png'
 export const projects = [
+  {
+    title: 'Covid-SAFE @ Frontieră',
+    img: covid,
+    name: 'covid',
+    url: 'https://citizennext.ro/proiecte/covid-safe-frontiera',
+    percent: 100,
+    member: 'Citizen Next',
+    memberLogo: citizennext,
+  },
   {
     title: 'Harta Serviciilor Sociale',
     img: harta,
     name: 'harta',
-    url: 'https://serviciisociale.ro',
+    url: 'https://citizennext.ro/proiecte/harta-serviciilor-sociale-licentiate',
     percent: 100,
     member: 'Citizen Next',
     memberLogo: citizennext,
@@ -30,17 +39,8 @@ export const projects = [
     title: 'Parinte.eu',
     img: parinte,
     name: 'parinte',
-    url: 'https://citizennext.ro',
+    url: 'https://citizennext.ro/proiecte/parinte-eu',
     percent: 15,
-    member: 'Citizen Next',
-    memberLogo: citizennext,
-  },
-  {
-    title: 'Open Energy',
-    img: openEnergy,
-    name: 'open-energy',
-    url: 'https://citizennext.ro',
-    percent: 100,
     member: 'Citizen Next',
     memberLogo: citizennext,
   },
