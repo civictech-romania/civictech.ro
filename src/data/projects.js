@@ -4,9 +4,18 @@ import civicnet from '../../static/images/civicnet.svg'
 import fiiPregatit from '../../static/images/projects/fiipregatit.png'
 import meserii from '../../static/images/projects/meserii.png'
 import harta from '../../static/images/projects/harta.jpg'
-import parinte from '../../static/images/projects/parinte.png'
 import covid from '../../static/images/projects/covid.png'
+import edushare from '../../static/images/projects/edushare.jpg'
 export const projects = [
+  {
+    title: 'EduShare',
+    img: edushare,
+    name: 'edushare',
+    url: 'https://edushare.ro',
+    percent: 100,
+    member: 'Citizen Next',
+    memberLogo: citizennext,
+  },
   {
     title: 'Covid-SAFE @ Frontieră',
     img: covid,
@@ -33,16 +42,6 @@ export const projects = [
     percent: 100,
     member: 'Civic Net',
     memberLogo: civicnet,
-  },
-
-  {
-    title: 'Parinte.eu',
-    img: parinte,
-    name: 'parinte',
-    url: 'https://citizennext.ro/proiecte/parinte-eu',
-    percent: 15,
-    member: 'Citizen Next',
-    memberLogo: citizennext,
   },
   {
     title: 'Alba Iulia Smart City website de prezentare',
